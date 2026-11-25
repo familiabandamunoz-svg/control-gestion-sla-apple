@@ -1,0 +1,26 @@
+# Entornos virtuales y Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Datos sensibles, base de datos local y reportes Excel con información operativa
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+*.xlsx
+*.xls
+*.csv
+
+# Claves y variables de entorno locales
+.env
+.env.*
+
+# Archivos del sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
